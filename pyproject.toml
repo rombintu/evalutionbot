@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "evalution-bot"
+version = "0.1.0"
+description = ""
+authors = ["Nickolsky <romb.intu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "evalution_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+loguru = "^0.7.2"
+aiogram = "^3.4.1"
+python-dotenv = "^1.0.1"
+docx2pdf = "^0.1.8"
+shell = "^1.0.1"
+fpdf = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
